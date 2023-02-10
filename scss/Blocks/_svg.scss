@@ -1,0 +1,28 @@
+.icon-logo{
+    fill: $text-color;
+    width: 160px;
+    height: 40px;
+    transition: 0.5s;
+    
+    &:hover{
+        transition: 0.3s;
+        transform: scale(1.1);
+        fill: $text-color-hover;
+    }
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    fill: $text-color;
+    transition: 0.5s;
+    
+    &:hover{
+        transition: 0.3s;
+        transform: scale(1.2);
+        fill: $text-color-hover;
+    }
+    
+    &:active{
+        fill: $text-color-active;
+    }
+}
